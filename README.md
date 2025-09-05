@@ -26,8 +26,10 @@ El proyecto cuenta con un **módulo de inventario** para registrar productos (co
 - **Base de datos** → MySQL/MariaDB  
 - **Entorno de desarrollo** → XAMPP / LAMP  
 
-(https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUyd3NtZGVnY3pjaXh4b3BuM3ZsZjQyZmJmNzVnNTNmaDMxa2R4dnBsOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/pIYzr864MJ9WU/giphy.gif)
 ---
+
+![giphy](https://github.com/user-attachments/assets/5191ebeb-e971-4691-ac22-0c2b7f0516a5)
+
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/sa1i_ko/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:sespinosa105206@gmail.com) 
