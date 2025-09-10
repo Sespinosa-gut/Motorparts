@@ -1,5 +1,5 @@
 <?php
-include "PHP/conexion.php"; // tu conexión a MySQL
+include_once "PHP/conexion.php"; // tu conexión a MySQL
 
 $mensaje = "";
 
@@ -213,3 +213,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
