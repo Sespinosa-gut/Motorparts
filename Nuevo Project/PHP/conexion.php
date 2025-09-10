@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
 $user = "root";
-$pass = "Toronja4@.2";
+$pass = "";
 $db   = "motorparts";
 
 $conn = new mysqli($host, $user, $pass, $db);
@@ -11,3 +11,4 @@ if ($conn->connect_error) {
 }
 
 ?>
+
