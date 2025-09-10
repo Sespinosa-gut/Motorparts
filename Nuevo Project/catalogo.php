@@ -1,5 +1,5 @@
 <?php
-include "PHP/conexion.php";
+include_once "PHP/conexion.php";
 
 
 $sql = "SELECT i.id_inventario, i.nombre_repuesto, i.stock, i.precio, 
@@ -140,3 +140,4 @@ function filtrarProductos() {
 </script>
 </body>
 </html>
+
