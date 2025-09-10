@@ -1,5 +1,5 @@
 <?php
-include "PHP/conexion.php";
+include_once "PHP/conexion.php";
 
 $sql = "SELECT i.id_inventario, i.nombre_repuesto, i.stock, i.precio, 
                m.nombre AS marca
@@ -147,3 +147,4 @@ if ($result && $result->num_rows > 0) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
