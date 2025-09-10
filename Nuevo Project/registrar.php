@@ -1,5 +1,5 @@
 <?php
-include "PHP/conexion.php";
+include_once "PHP/conexion.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nombre     = trim($_POST["nombre"]);
@@ -75,3 +75,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </div>
 </body>
 </html>
+
