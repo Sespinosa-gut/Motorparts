@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "PHP/conexion.php";
+include_once "PHP/conexion.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email      = trim($_POST["email"]);
@@ -70,3 +70,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </div>
 </body>
 </html>
+
