@@ -1,5 +1,5 @@
 <?php
-include "PHP/conexion.php";
+include_once "PHP/conexion.php";
 
 if (isset($_GET['id'])) {
     $id = intval($_GET['id']);
@@ -20,3 +20,4 @@ if (isset($_GET['id'])) {
     }
 }
 ?>
+
