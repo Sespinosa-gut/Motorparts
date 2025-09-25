@@ -1,0 +1,421 @@
+        .titillium-web-extralight {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        }
+
+        .titillium-web-light {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        }
+
+        .titillium-web-regular {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+
+        .titillium-web-semibold {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        }
+
+        .titillium-web-bold {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        }
+
+        .titillium-web-black {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        }
+
+        .titillium-web-extralight-italic {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+        }
+
+        .titillium-web-light-italic {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+        }
+
+        .titillium-web-regular-italic {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        }
+
+        .titillium-web-semibold-italic {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+        }
+
+        .titillium-web-bold-italic {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        }
+
+        body {
+            font-family: "Roboto Condensed", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .barra-navegacion {
+            background: linear-gradient(135deg, #456d91 0%, #2c4a6b 100%);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 0.5rem 0;
+        }
+
+        .navbar-brand {
+            font-family: "Fugaz One", sans-serif;
+            font-size: 1.5rem;
+            color: #cff7da !important;
+            text-decoration: none;
+        }
+
+        .navbar-brand:hover {
+            color: #76f5ca !important;
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+        }
+
+        .linkestilo {
+            margin: 0.5rem;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: #cff7da;
+            font-weight: 500;
+            font-family: "Roboto Condensed", sans-serif;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .linkestilo:hover {
+            background-color: rgba(118, 245, 202, 0.2);
+            color: #76f5ca;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .linkestilo-inicio {
+            margin: 0.5rem;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            background: linear-gradient(135deg, #00d890 0%, #00b377 100%);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: #2c4a6b;
+            font-weight: 600;
+            font-family: "Roboto Condensed", sans-serif;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .linkestilo-inicio:hover {
+            background: linear-gradient(135deg, #00b377 0%, #00d890 100%);
+            color: #2c4a6b;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .navbar-nav .nav-link {
+            padding: 0.5rem 1rem;
+            margin: 0 0.25rem;
+        }
+
+        .navbar-toggler {
+            border: none;
+            color: #cff7da;
+        }
+
+        .navbar-toggler:focus {
+            box-shadow: none;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28207, 247, 218, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+
+        @media (max-width: 991.98px) {
+            .navbar-collapse {
+                background-color: rgba(69, 109, 145, 0.95);
+                border-radius: 10px;
+                margin-top: 1rem;
+                padding: 1rem;
+            }
+            
+            .linkestilo, .linkestilo-inicio {
+                margin: 0.25rem 0;
+                justify-content: center;
+            }
+        }
+
+        .encabezado-principal {
+        position: relative;
+        font-family: "Fugaz One", sans-serif;
+        color: #cff7da;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+        overflow: hidden;
+        }
+
+        .encabezado-principal::before {
+        content: "";
+        font-family: "Fugaz One", sans-serif;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('https://images.steamusercontent.com/ugc/1829046027407667945/BA21EEA00C771AE06696C9F49C87743639830668/') no-repeat center center;
+        background-size: cover;
+        filter: blur(4px);
+        z-index: -1;
+         }
+
+
+        encabezado-principal h1 {
+        font-family: "Fugaz One", sans-serif;
+        font-weight: 400;
+            font-style: normal;
+            color: #cff7da;
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        .encabezado-principal p {
+            font-family: "Fugaz One", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+            color: #ffffff;
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+
+        .pie-pagina {
+            font-family: "Barlow", sans-serif;
+            background-color: #343a40;
+            color: #ccc;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+
+        .botonestilo {
+            padding: 5px 10px;
+            border-radius: 21px;
+            background-color: #76f5ca;
+            color: #cff7da;
+            font-size: 21px;
+            border-color: transparent;
+           
+        }
+        .botonestilo p {
+            margin: 0;
+            color: #456d91;
+            font-size: 21px;
+            font-family: "Fugaz One", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+
+        }
+
+        .botonestilo:hover {
+            padding: 5px 10px;
+            border-radius: 21px;
+            background-color: #5bae92;
+            color: black;
+            font-size: 21px;
+            border-color: transparent;
+            transform: translateY(2px)
+           
+        }
+        
+        #nosotros {
+            font-family: "Barlow", sans-serif;
+            padding: 3rem 0;
+        }
+
+        #FAQ {
+            font-family: "Barlow", sans-serif;
+            padding: 3rem 0;
+            
+        }
+
+        #contacto {
+            font-family: "Barlow", sans-serif;
+            padding: 3rem 0;
+            text-align: center;
+        }
+        #contacto p {
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+
+        .contenido-hero {
+            padding: 4rem 0;
+        }
+
+        .titulo-hero {
+            font-family: "Fugaz One", sans-serif;
+            font-size: 3.5rem;
+            font-weight: 700;
+            color: #cff7da;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+            margin-bottom: 1.5rem;
+        }
+
+        .subtitulo-hero {
+            font-size: 1.5rem;
+            color: #ffffff;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+            margin-bottom: 2rem;
+        }
+
+        .botones-hero {
+            margin-top: 2rem;
+        }
+
+        .titulo-seccion {
+            font-family: "Fugaz One", sans-serif;
+            font-size: 2.5rem;
+            color: #2c4a6b;
+            margin-bottom: 1rem;
+        }
+
+        .subtitulo-seccion {
+            font-size: 1.2rem;
+            color: #6c757d;
+            margin-bottom: 2rem;
+        }
+
+        .tarjeta-producto {
+            transition: transform 3s ease, box-shadow 0.3s ease;
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .tarjeta-producto:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15) !important;
+        }
+
+        .contenedor-imagen-producto {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .imagen-producto {
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .tarjeta-producto:hover .imagen-producto {
+            transform: scale(1.05);
+        }
+
+        .etiqueta-producto {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .titulo-producto {
+            font-weight: 600;
+            color: #2c4a6b;
+            margin-bottom: 0.5rem;
+        }
+
+        .info-producto {
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .precio-producto {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #28a745;
+        }
+
+        .item-caracteristica {
+            padding: 1rem;
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .item-caracteristica:hover {
+            background-color: #f8f9fa;
+        }
+
+        .imagen-nosotros {
+            text-align: center;
+        }
+
+        .placeholder-imagen {
+            padding: 3rem;
+            border-radius: 15px;
+        }
+
+        .item-contacto {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background: #fff;
+        }
+
+        .item-contacto:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1) !important;
+        }
+
+        .boton-acordeon {
+            font-weight: 600;
+            color: #2c4a6b;
+        }
+
+        .boton-acordeon:not(.collapsed) {
+            background-color: #e3f2fd;
+            color: #2c4a6b;
+        }
+
+        .boton-acordeon:focus {
+            box-shadow: 0 0 0 0.25rem rgba(44, 74, 107, 0.25);
+        }
+
+        .cuerpo-acordeon {
+            background-color: #f8f9fa;
+        }
+
+        @media (max-width: 768px) {
+            .titulo-hero {
+                font-size: 2.5rem;
+            }
+            
+            .subtitulo-hero {
+                font-size: 1.2rem;
+            }
+            
+            .titulo-seccion {
+                font-size: 2rem;
+            }
+        }
+
+
